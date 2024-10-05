@@ -22,6 +22,22 @@ header {
     text-align: center;
 }
 
+.profile-picture {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
 header h1 {
     font-size: 3em;
     animation: fadeIn 2s ease-in;
